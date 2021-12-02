@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- PAGE INFO -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Explorer</title>
+
+    <!-- ICONES -->
+    <link rel="stylesheet" href="/assest/font/style.css">
+
+
+     <!-- STYLES -->
+     <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <!-- LOGO -->
+    <section class="section" id="header">
+        <div class="container grid">
+            <cite>
+                <img src="image/vector.png" alt="simbolo do Github">
+                    github<span>_explorer</span>
+            </cite>
+        </div>
+    </section>
+
+    <!-- HOME -->
+    <section class="section" id="home">
+        <div class="container grid">
+            <h1 class="title">Explore repositórios no Github</h1>
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Digite aqui..."/>
+            <button id="btnBusca"><p>Pesquisar</p></button>
+         </div>      
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <section class="section" id="cards">
+        <div class="container grid">
+            
+            <div class="card">
+                
+                <cite>
+                    <img src="/image/thiago.png" alt="foto de perfil de um homem" >
+                    <div>
+                        <p>Natan Xavier Sombra</p>
+                        <p class="description">Descrição</p>
+                    </div>
+                </cite>
+
+                <!-- Botão para ia a segunda pagina -->
+                <div class="icon-circle-right" id="btn"></div> 
+
+                <!-- Segunda pagina -->
+                    <div id="aux" class="pag2_display">
+                        
+                        <div class="section" id="pag2">
+                            
+                            <div class="container grid">
+                                <cite id="logoo">
+                                    <img src="image/vector.png" alt="simbolo do Github">
+                                        github<span>_explorer</span>
+                                </cite>
+                                <section class="section" id="descri">
+                                    <div class="container grid">
+                                        <cite class="h">
+                                            <img src="/image/thiago.png" alt="homem">
+                                           <div id="x">
+                                               <p>Natan Xavier Sombra</p>
+                                               <p class="description">Descrição</p>
+                                           </div>
+                                        </cite>
+                                        <div class="dados grid" id="x">
+                                            <div>
+                                                <p>1800</p>
+                                                <p class="description">Stars</p>
+                                            </div>
+                                            <div>
+                                                <p>48</p>
+                                                <p class="description">Forks</p>
+                                            </div>
+                                            <div>
+                                                <p>67</p>
+                                                <p class="description">Issues_abertas</p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </section>
+                                
+                                <!-- Botão para voltar a home -->
+                                <div class="icon-cancel-circle" id="btn_"></div>
+        
+                                <!-- cards de descrição do repositorio -->
+                                <div class="cards_repo grid">
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="card">
+                
+                <cite>
+                    <img src="/image/diego.png" alt="foto de perfil de um homem" >
+                    <div>
+                        <p>Diego</p>
+                        <p class="description">Descrição</p>
+                    </div>
+                </cite>
+
+                <!-- Botão para ia a segunda pagina -->
+                <div class="icon-circle-right" id="btn1"></div> 
+
+                <!-- Segunda pagina -->
+                    <div id="aux2" class="pag2_display">
+                        
+                        <div class="section" id="pag2">
+                            
+                            <div class="container grid">
+                                <cite id="logoo">
+                                    <img src="image/vector.png" alt="simbolo do Github">
+                                        github<span>_explorer</span>
+                                </cite>
+                                <section class="section" id="descri">
+                                    <div class="container grid">
+                                        <cite class="h">
+                                            <img src="/image/diego.png" alt="homem">
+                                           <div id="x">
+                                               <p>Diego</p>
+                                               <p class="description">Descrição</p>
+                                           </div>
+                                        </cite>
+                                        <div class="dados grid" id="x">
+                                            <div>
+                                                <p>1800</p>
+                                                <p class="description">Stars</p>
+                                            </div>
+                                            <div>
+                                                <p>48</p>
+                                                <p class="description">Forks</p>
+                                            </div>
+                                            <div>
+                                                <p>67</p>
+                                                <p class="description">Issues_abertas</p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </section>
+                                
+                                <!-- Botão para voltar a home -->
+                                <div class="icon-cancel-circle" id="btn1_"></div>
+        
+                                <!-- cards de descrição do repositorio -->
+                                <div class="cards_repo grid">
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="card">
+                
+                <cite>
+                    <img src="/image/Fabio.png" alt="foto de perfil de um homem" >
+                    <div>
+                        <p>Fabio</p>
+                        <p class="description">Descrição</p>
+                    </div>
+                </cite>
+
+                <!-- Botão para ia a segunda pagina -->
+                <div class="icon-circle-right" id="btn2"></div> 
+
+                <!-- Segunda pagina -->
+                    <div id="aux3" class="pag2_display">
+                        
+                        <div class="section" id="pag2">
+                            
+                            <div class="container grid">
+                                <cite id="logoo">
+                                    <img src="image/vector.png" alt="simbolo do Github">
+                                        github<span>_explorer</span>
+                                </cite>
+                                <section class="section" id="descri">
+                                    <div class="container grid">
+                                        <cite class="h">
+                                            <img src="/image/Fabio.png" alt="homem">
+                                           <div id="x">
+                                               <p>Fabio</p>
+                                               <p class="description">Descrição</p>
+                                           </div>
+                                        </cite>
+                                        <div class="dados grid" id="x">
+                                            <div>
+                                                <p>1890</p>
+                                                <p class="description">Stars</p>
+                                            </div>
+                                            <div>
+                                                <p>55</p>
+                                                <p class="description">Forks</p>
+                                            </div>
+                                            <div>
+                                                <p>75</p>
+                                                <p class="description">Issues_abertas</p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </section>
+                                
+                                <!-- Botão para voltar a home -->
+                                <div class="icon-cancel-circle" id="btn2_"></div>
+        
+                                <!-- cards de descrição do repositorio -->
+                                <div class="cards_repo grid">
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="card">
+                
+                <cite>
+                    <img src="/image/katia.png" alt="foto de perfil de um homem" >
+                    <div>
+                        <p>Katia</p>
+                        <p class="description">Descrição</p>
+                    </div>
+                </cite>
+
+                <!-- Botão para ia a segunda pagina -->
+                <div class="icon-circle-right" id="btn3"></div> 
+
+                <!-- Segunda pagina -->
+                    <div id="aux4" class="pag2_display">
+                        
+                        <div class="section" id="pag2">
+                            
+                            <div class="container grid">
+                                <cite id="logoo">
+                                    <img src="image/vector.png" alt="simbolo do Github">
+                                        github<span>_explorer</span>
+                                </cite>
+                                <section class="section" id="descri">
+                                    <div class="container grid">
+                                        <cite class="h">
+                                            <img src="/image/katia.png" alt="homem">
+                                           <div id="x">
+                                               <p>Katia</p>
+                                               <p class="description">Descrição</p>
+                                           </div>
+                                        </cite>
+                                        <div class="dados grid" id="x">
+                                            <div>
+                                                <p>1690</p>
+                                                <p class="description">Stars</p>
+                                            </div>
+                                            <div>
+                                                <p>33</p>
+                                                <p class="description">Forks</p>
+                                            </div>
+                                            <div>
+                                                <p>45</p>
+                                                <p class="description">Issues_abertas</p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </section>
+                                
+                                <!-- Botão para voltar a home -->
+                                <div class="icon-cancel-circle" id="btn3_"></div>
+        
+                                <!-- cards de descrição do repositorio -->
+                                <div class="cards_repo grid">
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                    <cite class="card">
+                                        <div>
+                                            <p>gostack-desafio-conceitos-react-native</p>
+                                            <p class="description">Descrição repo</p>
+                                        </div>
+                                    </cite> 
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+   
+            
+            
+            
+   
+   
+    </section>
+           
+            
+            
+
+                          
+
+
+          
+
+  
+    <!-- main.js -->
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* raiz */
+
+:root{
+    --body-color: #f2f2f2;
+    --title-font-size: 2rem;
+    --text: "Roboto";
+    --text-color: #3a3a3a;
+    --text-size: 1rem;
+    --color-box: rgb(248, 247, 247);
+}
+
+/* base */
+
+html{
+    scroll-behavior: smooth;
+}
+.title{
+    font: 700 var(--title-font-size) var(--text);
+    color: var(--text-color);
+}
+.text{
+    font: 700 var(--title-font-size) var(--text);
+    color: var(--text-color);
+}
+body{
+    font: 700 var(--text-size) var(--text);
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased ;
+    background: #F2F2FA url(/image/Github.png) no-repeat ;
+    background-size: 20rem;
+    background-position: 100% 0%;
+    background-attachment:fixed;
+}
+cite{
+    font-style: normal;
+    display: flex;
+    align-items: center;
+   
+}
+/*  layout  */
+
+.container{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.section{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.grid{
+    display: grid;
+    gap: 0.8rem;
+}
+
+/*===== LOGO ===== */
+#header img{
+    clip-path: circle();
+    max-height: 1.5rem;
+    margin-right: 0.5rem;
+    
+}
+#header.section cite {
+    position: absolute;
+    margin-bottom: 2rem;
+}
+span{
+    color: #A8A8B3;
+}
+ 
+
+/*===== HOME ===== */
+
+#btnBusca:hover{ 
+background-color:green; 
+transition: 0.5s;
+
+opacity: 0.6;
+
+}
+
+#divBusca{
+    background-color:var(--color-box);
+    border-radius: 0.5rem ;
+    width: auto;
+    height:2.5rem;
+  }
+  
+ 
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:0.9rem;
+    font-size:0.9rem;
+    border:none;
+    height:2.5rem;
+    width: 100%;
+  }
+  button{
+      position:absolute;
+  }
+  #btnBusca{
+    position: absolute; 
+    border:none;
+    float:right;
+    border-radius: 0 0.5rem 0.5rem 0;
+    height:2.5rem;
+    width:5rem;
+    font-weight:bold;
+    background:#04D361;
+    right: 1.5rem;
+  }
+  #btnBusca p{
+    color: var(--color-box);
+  }
+  #home.section{
+      margin-bottom: 3rem;
+  }
+  #home h1{
+      margin-top: 1rem;
+      max-width: 20rem;
+  }
+  
+  
+  /* ===== CARDS ===== */
+
+  .card{
+      background: var(--color-box);
+      width: auto;
+      height: 5rem;
+      border-radius: 0.2rem;
+      display:inline-flex;
+      align-items: center;
+  }
+  #cards img{
+      clip-path: circle();
+      max-width: 3rem;
+      margin-left: 1rem;
+      margin-right: 0.5rem;
+      
+  }
+  #cards  p{
+      font-size: 0.9rem;
+      display: block;         
+  }
+  #cards  p.description{
+      color: #A8A8B3;
+  }
+
+  #cards  .icon-circle-right{
+     position: absolute;
+    right: 3rem;
+     font-size: 1.1rem;
+     margin-top: -0.1rem;  
+  }
+
+
+  #header cite{
+      position: absolute;
+  }
+
+
+  /*===== Menu de descrição do usuario ===== */
+div.pag2_display{
+    display: none;
+}
+
+
+
+#pag2 cite div{
+    margin-left: 1rem;
+    width: auto;
+}
+
+
+#pag2.section{
+    
+    padding-top: 3rem;
+    margin-top: 0rem;
+    background-color: #F2F2FA;
+    background-image: url(/image/Github.png);
+    background-size: 20rem;
+    background-position: 100% 0%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+#pag2{
+    background-color: var(--body-color);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}
+#pag2 .icon-cancel-circle{
+    position: fixed;
+    top: 1.3rem;
+    right:  2rem;
+}
+#pag2 .head img{
+    max-width: 1.5rem;
+}
+
+#logoo img{
+    max-width: 1.5rem;
+}
+#logoo{
+    position: absolute;
+    margin-top: -2rem;
+}
+/*==== Descrição do usuario ====*/
+
+
+#descri cite img{
+     max-width: 4.2rem;
+}
+#descri cite div{
+    position:relative;
+    left: -1rem;
+}
+#descri div.dados{
+    position: relative;
+    display: flex;
+    margin-top: 0rem;
+    margin-left: 1.5rem;   
+}
+#x p{
+    font-size: 1rem;
+}
+
+
+@media (min-width: 1200px){
+    .container{
+        margin-right: 37.3rem;
+        margin-left: 15rem;
+    }
+    div.cards_repo{
+        margin-right: 10rem;
+    }
+   #descri{
+       margin-top: 4.5rem;
+       position:relative;
+       right: 15rem;
+      
+   }
+   #x p.description{
+       font-size: 1rem;
+   }
+   #x p{
+    font-size: 1.3rem; 
+   }
+   #cards p.x {
+    font-size: 4rem;
+}
+   #pag2 .h{
+      
+       width: 400px;
+   }
+   #pag2 .card{
+       width: 960px;
+   }
+   #pag2 .dados{
+       gap: 3rem;
+   }
+   #btnBusca{
+       right: 37rem;
+   }
+   #cards  .icon-circle-right{
+    position: absolute;
+    right: 39rem;
+    font-size: 1.1rem;
+    margin-top: -0.1rem;  
+ }
+ #pag2 .icon-cancel-circle{
+    position: fixed;
+    top: 1.3rem;
+    right:  13rem;
+}
+
+body{
+    background: #F2F2FA url(/image/Github.png) no-repeat ;
+    background-size: 28rem;
+    background-position: 100% 0%;
+    background-attachment:fixed;
+}
+#pag2.section{
+    padding-top: 3rem;
+    margin-top: 0rem;
+    background-color: #F2F2FA;
+    background-image: url(/image/Github.png);
+    background-size: 28rem;
+    background-position: 100% 0%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+#descri cite img{
+    max-width: 5rem;
+}
+}
+
+
